@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="st1">Gorit debil nevemiaeii!</p>
+    <p id="st3">And so am I!</p>
+    <button onclick="onMyButtonClick()">
+        start
+         
+    </button>
+<input id="st2" type="text">
+    <!-- <p lang="en" class="warning"> -->
+<!-- <p class="DISCAUNt SEaSONaL"> -->
+<script>
+function onMyButtonClick() {
+
+    console.log('mare huinea');
+    document.getElementById('st1').textContent = "mare huinea";
+
+    var inputValue=document.getElementById('st2').value;
+    
+    console.log(inputValue);
+    document.getElementById('st1').textContent = inputValue;
+    document.getElementById('st3').textContent = inputValue;
+
+}
+
+</script>
+</body>
+</html>
