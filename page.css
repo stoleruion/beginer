@@ -1,0 +1,28 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+h1 {
+    color: navy;
+    margin-left: 100px;
+}
+
+footer{
+    height: 111px;
+    background-color: #313030;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 16px;
+line-height: 26px;
+color: #b8b8b8;
+font-weight: 400;
+font-family: "Open Sans";
+display: inline-block;
+margin-left: 160px;
+}
